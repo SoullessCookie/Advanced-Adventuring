@@ -24,7 +24,15 @@ public enum ModArmorMaterials implements StringRepresentable, ArmorMaterial {
         p_266652_.put(ArmorItem.Type.CHESTPLATE, 3);
         p_266652_.put(ArmorItem.Type.HELMET, 1);
     }), 15, SoundEvents.ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
-        return Ingredient.of(Items.LEATHER);
+        return Ingredient.of(Items.CACTUS);
+    }),
+    FUR("fur", 5, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266652_) -> {
+        p_266652_.put(ArmorItem.Type.BOOTS, 1);
+        p_266652_.put(ArmorItem.Type.LEGGINGS, 2);
+        p_266652_.put(ArmorItem.Type.CHESTPLATE, 3);
+        p_266652_.put(ArmorItem.Type.HELMET, 1);
+    }), 15, SoundEvents.ARMOR_EQUIP_ELYTRA, 0.0F, 0.05F, () -> {
+        return Ingredient.of(ModItems.GOAT_FUR.get());
     });
     private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266653_) -> {
         p_266653_.put(ArmorItem.Type.BOOTS, 13);
@@ -88,4 +96,5 @@ public enum ModArmorMaterials implements StringRepresentable, ArmorMaterial {
     public String getSerializedName() {
         return AdvancedAdventuring.MODID + ":" + this.name;
     }
+
 }

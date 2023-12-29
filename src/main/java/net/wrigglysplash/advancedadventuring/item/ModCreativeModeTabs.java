@@ -27,6 +27,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CACTUS_LEGGINGS.get());
                         pOutput.accept(ModItems.CACTUS_BOOTS.get());
 
+                        pOutput.accept(ModItems.FUR_HOOD.get());
+                        pOutput.accept(ModItems.FUR_COAT.get());
+                        pOutput.accept(ModItems.FUR_PANTS.get());
+                        pOutput.accept(ModItems.FUR_BOOTS.get());
+
                         // Tools
 
 

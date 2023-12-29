@@ -11,7 +11,17 @@
     "X X"
   ],
   "result": {
-    "item": "advancedadventuring:cactus_boots"
+    "item": "advancedadventuring:cactus_boots",
+    "nbt":
+    {
+      "ench":
+      [
+        {
+          "id": 7,
+          "lvl": 3
+        }
+      ]
+    }
   },
   "show_notification": true
 }
