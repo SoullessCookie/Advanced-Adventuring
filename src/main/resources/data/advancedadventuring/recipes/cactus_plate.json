@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cactus",
+  "key": {
+    "X": {
+      "item": "minecraft:cactus"
+    },
+    "O": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XOX",
+    "XXX"
+  ],
+  "result": {
+    "item": "advancedadventuring:cactus_plate"
+  },
+  "show_notification": true
+}
