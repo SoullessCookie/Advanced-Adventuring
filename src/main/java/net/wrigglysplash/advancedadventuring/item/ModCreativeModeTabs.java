@@ -13,9 +13,9 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AdvancedAdventuring.MODID);
 
-    public static final RegistryObject<CreativeModeTab> MAIN_TAB = CREATIVE_MODE_TABS.register("advancedadventuring_tab",
+    public static final RegistryObject<CreativeModeTab> MAIN_TAB = CREATIVE_MODE_TABS.register("main_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CACTUS_HELMET.get()))
-                    .title(Component.translatable("creativetab.advancedadventuring_tab"))
+                    .title(Component.translatable("creativetab.main_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
                         // Materials
