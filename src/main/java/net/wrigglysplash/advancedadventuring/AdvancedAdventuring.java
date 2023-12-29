@@ -78,7 +78,7 @@ public class AdvancedAdventuring {
         public static void onClientSetup(FMLClientSetupEvent event)
         {
             // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
+            LOGGER.info("HELLO FROM CLIENT SETUP FOR VERSION 1.20.2");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
